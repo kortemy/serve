@@ -3,6 +3,12 @@ Dead simple file server.
 
 Instead of configuring nginx or apache to serve me web content from different places, as a developer I find that a nuisance.
 
+# Install
+
+You must have Go installed.
+
+`$ go get -u github.com/kortemy/serve`
+
 # Usage
 
 Navigate to the folder you want to server content from:
