@@ -16,6 +16,6 @@ func main() {
 	fs := http.FileServer(http.Dir(wd))
 	http.Handle("/", fs)
 
-	log.Println("Serving in " + wd + " on " + *port)
+	log.Println("Serving from " + wd + " on " + *port)
 	http.ListenAndServe(":"+*port, nil)
 }
