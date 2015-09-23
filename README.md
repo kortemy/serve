@@ -19,7 +19,7 @@ Open your favorite web browser and go to `localhost:9090`. That is all.
 
 # Configuring
 
-Not to make this only a 1 minute work, you can define a custom port, because... yes.
+Not to make this only one LOC, you can define a custom port, because... yes.
 
 `$ serve -port 80`
 
