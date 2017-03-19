@@ -19,14 +19,14 @@ Serve:
 
 `$ serve`
 
-`Serving from /home/kortemy/projects/secret/notPr0n/web on 9090`
+`Serving from /home/kortemy/projects/secret/notPr0n/web on http://localhost:8080`
 
-Open your favorite web browser and go to `localhost:9090`. That is all.
+Open your favorite web browser and go to `localhost:8080`. That is all.
 
 # Configuring
 
-Not to make this only one LOC, you can define a custom port, because... yes.
+Not to make this only one LoC, you can define a custom port, because... yes.
 
 `$ serve -port 80`
 
-Yeah, screw you, Skype!
+If there is any conflicting with your other servers.

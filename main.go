@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	port := flag.String("port", "9090", "Default serve port")
+	port := flag.String("port", "8080", "Default serve port")
 	wd, _ := os.Getwd()
 
 	flag.Parse()
@@ -16,6 +16,6 @@ func main() {
 	fs := http.FileServer(http.Dir(wd))
 	http.Handle("/", fs)
 
-	log.Println("Serving from " + wd + " on " + *port)
+	log.Println("Serving " + wd + " on " + "http://localhost:" + *port)
 	http.ListenAndServe(":"+*port, nil)
 }
